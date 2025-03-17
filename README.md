@@ -1,4 +1,5 @@
-ramen-rater-proj
+Ramen rater web application
+
 Ramen Rater 🍜
 Hey there! Welcome to the Ramen Rater! This is a fun little web application where you can rate and review your favorite ramen dishes. Whether you're a ramen connoisseur or just someone who enjoys a good bowl of noodles, this app is for you!
 
