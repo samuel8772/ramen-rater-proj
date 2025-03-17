@@ -27,7 +27,7 @@ function handleClick(ramen) {
         <h3>${ramen.restaurant}</h3>
         <p>Rating: ${ramen.rating || 'N/A'}</p>
         <p>Comment: ${ramen.comment || 'N/A'}</p>
-    `;
+    `
 }
 
 // Function to validate image URL
