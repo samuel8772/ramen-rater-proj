@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen Rating App</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Ramen Rating App</h1>
+    </header>
+
+    <main>
+        <section id="ramen-menu">
+            <h2>Ramen Menu</h2>
+            <div class="ramen-container"></div> <!-- Container for ramen images -->
+        </section>
+
+        <section id="ramen-detail">
+            <h2>Ramen Details</h2>
+            <h3 id="ramen-name">Select a ramen to see details</h3>
+            <h4 id="restaurant-name"></h4>
+            <p id="ramen-rating"></p>
+            <p id="ramen-comment"></p>
+        </section>
+
+        <form id="new-ramen-form">
+            <h2>Add a New Ramen</h2>
+            <label for="name">Ramen Name:</label>
+            <input type="text" id="name" placeholder="Ramen Name" required>
+
+            <label for="restaurant">Restaurant Name:</label>
+            <input type="text" id="restaurant" placeholder="Restaurant Name" required>
+
+            <label for="image">Image URL:</label>
+            <input type="url" id="image" placeholder="Image URL" required>
+
+            <label for="rating">Rating (1-5):</label>
+            <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" placeholder="Comment"></textarea>
+
+            <button type="submit">Add Ramen</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ramen Rating App. All rights reserved.</p>
+    </footer>
+
+    <script src="index.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
