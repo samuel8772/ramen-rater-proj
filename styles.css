@@ -109,7 +109,7 @@ button:hover {
     }
 
     #ramen-detail, form {
-        max-width: 90%; /* Full width on mobile */
+        max-width: 90%;
     }
 }
 
